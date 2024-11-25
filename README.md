@@ -55,29 +55,29 @@ Ensure you have the following installed on your system:
    cd real-estate-mern
 2.Install Dependencies: Navigate to both the backend and frontend directories and install dependencies:
 
-bash
-Copy code
+-bash
+-Copy code
 
 # Backend
-cd api
-npm install
+-cd api
+-npm install
 
 # Frontend
-cd ../client
-npm install
+-cd ../client
+-npm install
 
-3.Set Environment Variables: Create a .env file in the backend directory with the following details:
+3.#Set Environment Variables: Create a .env file in the backend directory with the following details:
 
-PORT=5000
-MONGO_URI=mongodb://localhost:27017/realestate
-JWT_SECRET=your_secret_key
-CLOUDINARY_URL=your_cloudinary_url (if using for image uploads)
+-PORT=5000
+-MONGO_URI=mongodb://localhost:27017/realestate
+-JWT_SECRET=your_secret_key
+-CLOUDINARY_URL=your_cloudinary_url (if using for image uploads)
 
-4. # Backend
-cd api
-npm start
+4.# Backend
+-cd api
+-npm start
 
 # Frontend
-cd ../client
-npm start
+-cd ../client
+-npm start
 
